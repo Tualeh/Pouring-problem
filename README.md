@@ -8,9 +8,9 @@ Besides this file
 
 this folder contains the following 7 files:
 
-2. "pouring.cc"
-   This file is a C++ program. You can compile it for example
-   with "gcc pouring.cc" and obtain the executable "a.out".
+2. "pouring.c"
+   This file is a C program. You can compile it for example
+   with "gcc pouring.c" and obtain the executable "a.out".
 
    You can start it as follows.
    "a.out -N5 -k4 -l20 -u80"
@@ -35,7 +35,7 @@ this folder contains the following 7 files:
 	 bound by using for example the value 10,0000,000 and adding the option "-m10000000".
 
 The last six files are result files based on the runs of
-the program "pouring.cc".
+the program "pouring.c".
 Each file contains the values of the following
 function N(n,k) for one of k=3,4,5,6,7,8 and for 
 n in a given interval between 1 and an upper bound
@@ -67,4 +67,3 @@ from these result files.
 For example, g(5,4) = 76 is the smallest n for which N(n,4) = 5.
 On the other hand, h(5,4) = 204 is the largest (found) n for which N(n,4) = 5.
 Note that by Corollary 16, we can compute exact values of h(N,3).
-
